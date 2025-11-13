@@ -23,8 +23,9 @@ public class FileOperations {
 						count++;
 					}
 				}
-				System.out.println(count);
+				
 			}
+			System.out.println("the count is "+count);
 		}
 			catch(IOException e) {
 				System.out.println("Error reading file");
